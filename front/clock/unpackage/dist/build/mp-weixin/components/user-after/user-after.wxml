@@ -1,0 +1,1 @@
+<navigator url="../../pages/User/User" open-type="redirect"><view class="userAfter"><view class="userAfterLong"><view class="userAfterShort"><view><image src="{{a}}"/></view></view><view class="userAfterWord"><view>我的</view></view></view><view></view></view></navigator>

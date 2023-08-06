@@ -1,0 +1,1 @@
+.Logo .LogoL .LogoLI{display:flex;justify-content:center;align-items:center;padding-bottom:15rpx}.Logo .LogoL text{display:block;font-size:80rpx;font-weight:700;line-height:88rpx;color:#1b202a;text-align:center;padding-top:15rpx}

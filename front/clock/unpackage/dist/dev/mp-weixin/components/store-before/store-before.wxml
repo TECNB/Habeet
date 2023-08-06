@@ -1,0 +1,1 @@
+<navigator url="../../pages/Store/Store" open-type="redirect" animation-type="fade-in"><view class="storeBefore"><view class="storeBeforeImage"><image src="{{a}}" style="width:48rpx;height:48rpx"/></view><view class="storeBeforeWords"><view>商店</view></view></view></navigator>

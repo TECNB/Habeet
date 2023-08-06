@@ -1,0 +1,1 @@
+<view class="focusAfter"><navigator url="../../pages/index/Time" open-type="redirect"><view class="focusAfterLong"><view class="focusAfterShort"><view><image src="{{a}}"/></view></view><view class="focusAfterWord"><view>专注</view></view></view></navigator></view>

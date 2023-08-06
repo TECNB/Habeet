@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/Logo/Logo",
+    "pages/Nav/Nav",
+    "pages/Home/Home",
+    "pages/Login/Login",
+    "pages/index/Time",
+    "pages/Help/Help",
+    "pages/Setting/Setting",
+    "pages/Sign/Sign",
+    "pages/Store/Store",
+    "pages/Tag/Tag",
+    "pages/Target/Target",
+    "pages/TargetCreat/TargetCreat",
+    "pages/User/User",
+    "pages/TagCreat/TagCreat",
+    "pages/StoreCreat/StoreCreat",
+    "pages/UserAgreement/UserAgreement",
+    "pages/PrivacyPolicy/PrivacyPolicy",
+    "pages/Wx/Wx"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

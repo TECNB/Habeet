@@ -1,0 +1,21 @@
+{
+  "component": true,
+  "usingComponents": {
+    "time-avater": "../time-avater/time-avater",
+    "focus-before": "../focus-before/focus-before",
+    "focus-after": "../focus-after/focus-after",
+    "target-before": "../target-before/target-before",
+    "target-after": "../target-after/target-after",
+    "tag-before": "../tag-before/tag-before",
+    "tag-after": "../tag-after/tag-after",
+    "store-before": "../store-before/store-before",
+    "store-after": "../store-after/store-after",
+    "user-before": "../user-before/user-before",
+    "user-after": "../user-after/user-after",
+    "setting-before": "../setting-before/setting-before",
+    "setting-after": "../setting-after/setting-after",
+    "help-before": "../help-before/help-before",
+    "help-after": "../help-after/help-after",
+    "logout": "../logout/logout"
+  }
+}

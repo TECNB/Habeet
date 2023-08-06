@@ -1,0 +1,1 @@
+<view class="tagetDay"><scroll-view class="scroll-view" scroll-x="true" enable-flex="true"><view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="Mon" bindtap="{{item.e}}"><text>{{item.a}}</text><view class="{{item.c}}"><text class="Num">{{item.b}}</text></view></view></scroll-view></view>

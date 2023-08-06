@@ -1,0 +1,1 @@
+"use strict";const o=require("../config.js"),{color:e}=o.config,c={icon:{name:"",color:e["u-content-color"],size:"16px",bold:!1,index:"",hoverClass:"",customPrefix:"uicon",label:"",labelPos:"right",labelSize:"15px",labelColor:e["u-content-color"],space:"3px",imgMode:"",width:"",height:"",top:0,stop:!1}};exports.Icon=c;

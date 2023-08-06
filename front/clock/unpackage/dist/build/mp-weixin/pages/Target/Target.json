@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "navbar": "../../components/navbar/navbar",
+    "target-day": "../../components/target-day/target-day",
+    "target-nav": "../../components/target-nav/target-nav",
+    "uni-transition": "../../uni_modules/uni-transition/components/uni-transition/uni-transition",
+    "uni-popup-dialog": "../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

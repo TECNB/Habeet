@@ -1,0 +1,1 @@
+<navigator url="../../pages/Tag/Tag" open-type="redirect"><view class="tagBefore"><view class="tagBeforeImage"><image src="{{a}}" style="width:48rpx;height:48rpx"/></view><view class="tagBeforeWords"><view>标签</view></view></view></navigator>

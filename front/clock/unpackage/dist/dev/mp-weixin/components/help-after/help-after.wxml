@@ -1,0 +1,1 @@
+<navigator url="../../pages/Help/Help.vue" open-type="redirect"><view class="helpAfter"><view class="helpAfterLong"><view class="helpAfterShort"><view><image src="{{a}}"/></view></view><view class="helpAfterWord"><view>关于</view></view></view></view></navigator>

@@ -1,0 +1,1 @@
+<navbar wx:if="{{a}}" u-i="f72fbf5e-0" bind:__l="__l" u-p="{{a}}"></navbar><view class="Help"><text class="HelpP">作者</text><view class="help"><text>TEC</text></view></view><view class="Help"><text class="HelpP">联系方式</text><view class="help"><text>V+TEC20040303</text></view></view>

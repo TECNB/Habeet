@@ -1,0 +1,1 @@
+<view class="Time"><navbar wx:if="{{a}}" u-i="e65e5610-0" bind:__l="__l" u-p="{{a}}"></navbar><target-menu u-i="e65e5610-1" bind:__l="__l"></target-menu><time-timer u-i="e65e5610-2" bind:__l="__l"></time-timer></view>

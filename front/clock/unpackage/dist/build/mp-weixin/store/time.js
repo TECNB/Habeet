@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js").defineStore("time",{state:()=>({data:{ifstart:!1,ifbegin:!0,ifend:!1,formattedTime:0,remainingTime:0,showNav_menu:!0}}),actions:{}});exports.useTimeStore=e;

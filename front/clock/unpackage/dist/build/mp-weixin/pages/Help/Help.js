@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js");if(!Array){e.resolveComponent("navbar")()}Math;const r={__name:"Help",setup:r=>(e.useRoute(),e.useRouter(),e.reactive({}),(r,a)=>({a:e.p({navbarTo:"/menu/7"})}))};wx.createPage(r);

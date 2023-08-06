@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "store-creat-menu": "../../components/store-creat-menu/store-creat-menu"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Habeet",
+  "usingComponents": {
+    "navbar": "../../components/navbar/navbar",
+    "target-menu": "../../components/target-menu/target-menu",
+    "time-timer": "../../components/time-timer/time-timer"
+  }
+}

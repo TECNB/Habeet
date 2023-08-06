@@ -1,0 +1,1 @@
+<view class="LogOut" bindtap="{{b}}"><view class="LogOutImage"><image src="{{a}}" style="width:48rpx;height:48rpx"/></view><view class="LogOutWords"><view>登出</view></view></view>

@@ -1,0 +1,148 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.TargetTaskPATDelete {
+  width: 60rpx;
+  height: 60rpx;
+  background: linear-gradient(225deg, #8e96ff 0%, #6c5dd3 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TargetTaskPATDelete image {
+  width: 20rpx;
+  height: 20rpx;
+}
+.Target {
+  margin: 0 20rpx 0 20rpx;
+}
+.TargetWords {
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+  width: 154rpx;
+  height: 48rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  letter-spacing: 0rpx;
+  line-height: 48rpx;
+  color: #808191;
+  text-align: left;
+  vertical-align: top;
+}
+.TargetTaskButton {
+  position: fixed;
+  right: 20rpx;
+  bottom: 80rpx;
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 40rpx;
+  margin-bottom: 40rpx;
+}
+.TargetTask {
+  margin: 20rpx;
+  margin-top: 20rpx;
+  height: 224rpx;
+  border-radius: 40rpx;
+  background: rgba(128, 129, 145, 0.04);
+}
+.TargetTask .TargetTaskDetail {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /*居中对齐*/
+  margin: 40rpx;
+}
+.TargetTask .TargetTaskDetail .TargetTaskName {
+  padding-left: 40rpx;
+  width: 320rpx;
+}
+.TargetTask .TargetTaskDetail .TargetTaskName text:nth-child(1) {
+  display: block;
+  height: 48rpx;
+  font-size: 32rpx;
+  font-weight: 700;
+  letter-spacing: 0rpx;
+  line-height: 48rpx;
+  color: #5e6272;
+  text-align: left;
+  vertical-align: top;
+}
+.TargetTask .TargetTaskDetail .TargetTaskName text:nth-child(2) {
+  height: 48rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  letter-spacing: 0rpx;
+  line-height: 48rpx;
+  color: #808191;
+  text-align: left;
+  vertical-align: top;
+}
+.TargetTask .TargetTaskDetail .TargetTaskPAT .TargetTaskP {
+  display: flex;
+  width: 118rpx;
+  height: 48rpx;
+  opacity: 1;
+  border-radius: 200rpx;
+  background: #ffa2c0;
+  align-items: center;
+  /*居中对齐*/
+  justify-content: center;
+  /*居中对齐*/
+}
+.TargetTask .TargetTaskDetail .TargetTaskPAT .TargetTaskP view:nth-child(1) {
+  width: 34rpx;
+  height: 34rpx;
+}
+.TargetTask .TargetTaskDetail .TargetTaskPAT .TargetTaskP view:nth-child(2) {
+  width: 28rpx;
+  height: 32rpx;
+  font-size: 22rpx;
+  font-weight: 700;
+  letter-spacing: 0rpx;
+  line-height: 32rpx;
+  color: #808191;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 20rpx;
+}
+.TargetTask .TargetTaskDetail .TargetTaskPAT .TargetTaskT {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /*居中对齐*/
+  justify-content: center;
+}
+.TargetTask .TargetTaskDetail .TargetTaskPAT .TargetTaskT text {
+  height: 48rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  letter-spacing: 0rpx;
+  line-height: 48rpx;
+  color: #808191;
+  vertical-align: top;
+  padding-top: 10rpx;
+}

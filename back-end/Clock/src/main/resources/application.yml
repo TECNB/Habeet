@@ -1,0 +1,64 @@
+#--------------------------通用配置-------------------------
+spring:
+  mail:
+    # 配置 SMTP 服务器地址
+    host: smtp.qq.com
+    # 发送者邮箱
+    username: 3489044730@qq.com
+    # 配置密码，注意不是真正的密码，而是刚刚申请到的授权码
+    password: vffqoduyybrgcgje
+    # 端口号465或587
+    port: 587
+    # 默认的邮件编码为UTF-8
+    default-encoding: UTF-8
+    # 配置SSL 加密工厂
+    properties:
+      mail:
+        smtp:
+          socketFactoryClass: javax.net.ssl.SSLSocketFactory
+        #表示开启 DEBUG 模式，这样，邮件发送过程的日志会在控制台打印出来，方便排查错误
+        debug: true
+
+  application:
+    # 应用名
+    name: clock
+
+  servlet:
+    multipart:
+      location: C:/wwwroot/42.192.90.134/temp/
+
+server:
+  root:
+    path: C:/wwwroot/42.192.90.134/image/
+  domain: localhost:8181 # 本地开发服务器的域名或IP地址和端口号，可以自行设置
+
+  port: 8181
+--- #---------------------数据库配置---------------------------
+spring:
+  datasource:
+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://42.192.90.134:3306/clock?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: clock
+    password: G4rXsxxyMz5ZLYRp
+--- #---------------------自定义配置----------------------------
+
+--- #配置mapper xml文件的路径
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase=true:
+spring:
+  jackson:
+    generator:
+      write_numbers_as_strings: true
+
+logging:
+  level:
+    com.tec.clock.dao.mapper: debug
+
+
+

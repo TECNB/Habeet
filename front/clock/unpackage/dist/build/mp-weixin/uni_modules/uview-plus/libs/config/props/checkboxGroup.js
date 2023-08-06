@@ -1,0 +1,1 @@
+"use strict";exports.CheckboxGroup={checkboxGroup:{name:"",value:()=>[],shape:"square",disabled:!1,activeColor:"#2979ff",inactiveColor:"#c8c9cc",size:18,placement:"row",labelSize:14,labelColor:"#303133",labelDisabled:!1,iconColor:"#ffffff",iconSize:12,iconPlacement:"left",borderBottom:!1}};

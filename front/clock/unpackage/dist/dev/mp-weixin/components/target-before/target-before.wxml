@@ -1,0 +1,1 @@
+<navigator url="../../pages/Target/Target" open-type="redirect"><view class="targetBefore"><view class="targetBeforeImage"><image src="{{a}}" style="width:48rpx;height:48rpx"/></view><view class="targetBeforeWords"><view>目标</view></view></view></navigator>

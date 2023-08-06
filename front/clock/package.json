@@ -1,0 +1,22 @@
+{
+	"name": "clock",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"clipboard": "^2.0.11",
+		"dayjs": "^1.11.7",
+		"uview-plus": "^3.1.30",
+		"uview-ui": "^2.0.36"
+	},
+	"devDependencies": {
+		"sass": "^1.62.1",
+		"sass-loader": "^10.4.1"
+	}
+}

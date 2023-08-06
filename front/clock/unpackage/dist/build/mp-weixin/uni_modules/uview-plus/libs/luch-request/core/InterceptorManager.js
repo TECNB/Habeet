@@ -1,0 +1,1 @@
+"use strict";function t(){this.handlers=[]}t.prototype.use=function(t,e){return this.handlers.push({fulfilled:t,rejected:e}),this.handlers.length-1},t.prototype.eject=function(t){this.handlers[t]&&(this.handlers[t]=null)},t.prototype.forEach=function(t){this.handlers.forEach((e=>{null!==e&&t(e)}))},exports.InterceptorManager=t;

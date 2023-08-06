@@ -1,0 +1,1 @@
+<view class="avatar"><view class="avatarImage"><image src="{{a}}" style="width:80rpx;height:80rpx;border-radius:50%"/></view><view class="avatarName"><view>{{b}}</view></view></view>

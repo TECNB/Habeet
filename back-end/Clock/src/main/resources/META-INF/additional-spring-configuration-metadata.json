@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "server.address.tengenchang.top  port.443  ssl.key-alias.tengenchang.top    key-store-password.d0590iqz5jad0    key-store-type.PKCS12    key-store",
+      "type": "java.lang.String",
+      "description": "Description for server.address.tengenchang.top  port.443  ssl.key-alias.tengenchang.top    key-store-password.d0590iqz5jad0    key-store-type.PKCS12    key-store."
+  }
+] }

@@ -1,0 +1,1 @@
+<view class="Logo"><view class="LogoB1"><image src="{{a}}" style="width:748rpx;height:568rpx"></image></view><view class="LogoL"><view class="LogoLI"><image src="{{b}}" style="width:256rpx;height:256rpx"></image></view><text>Habeet</text></view><view class="LogoB2"><view class="LogoB1"><image src="{{c}}" style="width:748rpx;height:568rpx"></image></view></view></view>

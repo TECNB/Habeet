@@ -1,0 +1,1 @@
+<navigator url="../../pages/Setting/Setting" open-type="redirect"><view class="settingBefore"><view class="settingBeforeImage"><image src="{{a}}" style="width:48rpx;height:48rpx"/></view><view class="settingBeforeWords"><view>设置</view></view></view></navigator>

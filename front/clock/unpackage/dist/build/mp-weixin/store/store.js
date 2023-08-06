@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js").defineStore("store",{state:()=>({data:{storeName:"",storeDescribe:"",storePoint:"",storeHour:0,storeMinute:0,storeSecond:0,ifStoreUpdate:0,hour:[1],minute:[0],second:0,ifstart:!1,ifbegin:!0,ifend:!1}}),actions:{}});exports.useStoreStore=e;

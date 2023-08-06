@@ -1,0 +1,1 @@
+<navigator url="../../pages/Help/Help" open-type="redirect"><view class="helpBefore"><view class="helpBeforeImage"><image src="{{a}}" style="width:48rpx;height:48rpx"/></view><view class="helpBeforeWords"><view>关于</view></view></view></navigator>
