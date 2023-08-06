@@ -251,8 +251,8 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
     @Override
     public RestResp<UserRespDto> wxLogin(String code) {
         String authUrl="https://api.weixin.qq.com/sns/jscode2session?grant_type=authorization_code";
-        String appId="wxdc4b9b90a1a0aae0";
-        String secret="df2f12e6a0d01f4e545be489020819fb";
+        String appId="";
+        String secret="";
         authUrl=authUrl+"&appid="+appId+"&secret="+secret+"&js_code="+code;
 
         String result= HttpUtil.get(authUrl);
