@@ -13,7 +13,7 @@
 ### 前端小程序部分页面示意图
 
 <center class="half">
-<img src="https://gitee.com/TECNB/pic-demo/raw/master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-08-07%20101640.png" width=250/>
+<img src="https://gitee.com/TECNB/pic-demo/raw/master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-08-07.png" width=250/>
 <img src="https://gitee.com/TECNB/pic-demo/raw/master/image-20230807102900903.png" width=250/>
 <img src="https://gitee.com/TECNB/pic-demo/raw/master/image-20230807101744369.png" width=250/>
 </center>
