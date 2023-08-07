@@ -27,8 +27,8 @@
 | 技术   | 版本   | 说明                       | 官网                                                         | 学习                                                         |
 | ------ | ------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Vue.js | 3.2.13 | 渐进式 JavaScript 框架     | [进入](https://vuejs.org/)                                   | [进入](https://staging-cn.vuejs.org/guide/introduction.html) |
-| uniapp | 3.8.7  | 基于 vue语言的前端跨端框架 | [进入]https://uniapp.dcloud.net.cn/                        | [进入](https://tecnb.github.io/posts/2e2abc46.html )         |
-| uni-ui | 3.8.7  | uniapp的ui框架             | [进入]([uni-app官网 (dcloud.net.cn)](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)) | [进入](https://uniapp.dcloud.net.cn/tutorial/)               |
+| uniapp | 3.8.7  | 基于 vue语言的前端跨端框架 | [进入]（https://uniapp.dcloud.net.cn/）                        | [进入](https://tecnb.github.io/posts/2e2abc46.html )         |
+| uni-ui | 3.8.7  | uniapp的ui框架             | [进入(https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html) | [进入](https://uniapp.dcloud.net.cn/tutorial/)               |
 
 ## back-end
 
