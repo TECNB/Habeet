@@ -12,18 +12,23 @@
 
 ### 前端小程序部分页面示意图
 
-![屏幕截图 2023-08-07 101640](https://gitee.com/TECNB/pic-demo/raw/master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-08-07%20101640.png)
+<center class="half">
+<img src="https://gitee.com/TECNB/pic-demo/raw/master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-08-07%20101640.png" width=250/>
+<img src="https://gitee.com/TECNB/pic-demo/raw/master/image-20230807102900903.png" width=250/>
+<img src="https://gitee.com/TECNB/pic-demo/raw/master/image-20230807101744369.png" width=250/>
+</center>
 
-![image-20230807101744369](https://gitee.com/TECNB/pic-demo/raw/master/image-20230807101744369.png)
+
+
 
 
 ### 前端技术选型
 
-| 技术         | 版本   | 说明                                   | 官网                              | 学习                                                         |
-| ------------ | ------ | -------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
-| Vue.js       | 3.2.13 | 渐进式 JavaScript 框架                 | [进入](https://vuejs.org/)        | [进入](https://staging-cn.vuejs.org/guide/introduction.html) |
-| uniapp        | 3.8.7 | 基于 vue语言的前端跨端框架              | [进入](https://uniapp.dcloud.net.cn/)   | [进入](https://tecnb.github.io/posts/2e2abc46.html ) |
-| uni-ui | 3.8.7 | uniapp的ui框架 | [进入]([uni-app官网 (dcloud.net.cn)](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)) | [进入](https://uniapp.dcloud.net.cn/tutorial/) |
+| 技术   | 版本   | 说明                       | 官网                                                         | 学习                                                         |
+| ------ | ------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Vue.js | 3.2.13 | 渐进式 JavaScript 框架     | [进入](https://vuejs.org/)                                   | [进入](https://staging-cn.vuejs.org/guide/introduction.html) |
+| uniapp | 3.8.7  | 基于 vue语言的前端跨端框架 | [进入](https://uniapp.dcloud.net.cn/)                        | [进入](https://tecnb.github.io/posts/2e2abc46.html )         |
+| uni-ui | 3.8.7  | uniapp的ui框架             | [进入]([uni-app官网 (dcloud.net.cn)](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)) | [进入](https://uniapp.dcloud.net.cn/tutorial/)               |
 
 ## back-end
 
