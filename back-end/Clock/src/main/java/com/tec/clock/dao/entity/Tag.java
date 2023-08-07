@@ -1,5 +1,7 @@
 package com.tec.clock.dao.entity;
 
+import lombok.Data;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -9,6 +11,7 @@ import java.util.Date;
  * @author TEC
  * @since 2023-05-31 08:37:46
  */
+@Data
 public class Tag implements Serializable {
     private static final long serialVersionUID = -19652754899508148L;
     /**
@@ -51,87 +54,6 @@ public class Tag implements Serializable {
      * 标签的创建时间
      */
     private Date creatTime;
-
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
-
-    public String getPicUrl() {
-        return picUrl;
-    }
-
-    public void setPicUrl(String picUrl) {
-        this.picUrl = picUrl;
-    }
-
-    public String getTagName() {
-        return tagName;
-    }
-
-    public void setTagName(String tagName) {
-        this.tagName = tagName;
-    }
-
-    public String getTagDescribe() {
-        return tagDescribe;
-    }
-
-    public void setTagDescribe(String tagDescribe) {
-        this.tagDescribe = tagDescribe;
-    }
-
-    public Integer getTagColor() {
-        return tagColor;
-    }
-
-    public void setTagColor(Integer tagColor) {
-        this.tagColor = tagColor;
-    }
-
-    public Integer getTagPoint() {
-        return tagPoint;
-    }
-
-    public void setTagPoint(Integer tagPoint) {
-        this.tagPoint = tagPoint;
-    }
-
-    public Integer getTagHour() {
-        return tagHour;
-    }
-
-    public void setTagHour(Integer tagHour) {
-        this.tagHour = tagHour;
-    }
-
-    public Integer getTagMinute() {
-        return tagMinute;
-    }
-
-    public void setTagMinute(Integer tagMinute) {
-        this.tagMinute = tagMinute;
-    }
-
-    public Date getCreatTime() {
-        return creatTime;
-    }
-
-    public void setCreatTime(Date creatTime) {
-        this.creatTime = creatTime;
-    }
 
 }
 

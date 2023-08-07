@@ -1,8 +1,9 @@
 package com.tec.clock.dao.entity;
 
+import lombok.Data;
+
 import java.io.Serializable;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 /**
  * (Target)实体类
@@ -10,6 +11,7 @@ import java.util.Date;
  * @author TEC
  * @since 2023-05-27 16:32:42
  */
+@Data
 public class Target implements Serializable {
     private static final long serialVersionUID = -54070880754490106L;
     /**
@@ -56,95 +58,6 @@ public class Target implements Serializable {
      * 目标的创建时间
      */
     private LocalDateTime creatTime;
-
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Long userId) {
-        this.userId = userId;
-    }
-
-    public String getPicUrl() {
-        return picUrl;
-    }
-
-    public void setPicUrl(String picUrl) {
-        this.picUrl = picUrl;
-    }
-
-    public String getTargetName() {
-        return targetName;
-    }
-
-    public void setTargetName(String targetName) {
-        this.targetName = targetName;
-    }
-
-    public String getTargetDescribe() {
-        return targetDescribe;
-    }
-
-    public void setTargetDescribe(String describe) {
-        this.targetDescribe = describe;
-    }
-
-    public Integer getTargetColor() {
-        return targetColor;
-    }
-
-    public void setTargetColor(Integer targetColor) {
-        this.targetColor = targetColor;
-    }
-
-    public Integer getTargetPoint() {
-        return targetPoint;
-    }
-
-    public void setTargetPoint(Integer targetPoint) {
-        this.targetPoint = targetPoint;
-    }
-
-    public LocalDateTime getDeadline() {
-        return deadline;
-    }
-
-    public void setDeadline(LocalDateTime deadline) {
-        this.deadline = deadline;
-    }
-
-    public Integer getStatus() {
-        return status;
-    }
-
-    public void setStatus(Integer status) {
-        this.status = status;
-    }
-
-    public Integer getIsReward() {
-        return isReward;
-    }
-
-    public void setIsReward(Integer isReward) {
-        this.isReward = isReward;
-    }
-
-    public LocalDateTime getCreatTime() {
-        return creatTime;
-    }
-
-    public void setCreatTime(LocalDateTime creatTime) {
-        this.creatTime = creatTime;
-    }
 
 }
 
